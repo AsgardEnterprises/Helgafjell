@@ -1,0 +1,313 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: Bolt - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+ 
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
+/* OVERALL ASPECT */
+
+body {
+  background-color: #f2f2f2;
+    font-family: "Lato";
+    font-smooth: always;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.subtitle {
+	box-sizing: border-box;
+	color: rgb(116, 207, 174);
+	display: block;
+	font-family: Raleway;
+	font-size: 30px;
+	font-weight: normal;
+	height: 33px;
+	line-height: 33px;
+	margin-bottom: 10px;
+	margin-top: -10px;
+	text-align: center;
+	width: 750px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.mt {
+	margin-top: 40px;
+}
+
+/* Bootstrap Modifications */
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #ffffff;
+	background-color: #74cfae;
+}
+
+.navbar-brand {
+	font-size: 60px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.btn-theme {
+	color: #ffffff;
+	background-color: #74cfae;
+	border-color: transparent;
+}
+
+.btn {
+	padding: 10px 30px;
+	margin-bottom: 0;
+	font-size: 18px;
+	border: 5px solid transparent;
+	border-radius: 0px;
+}
+
+.lead {
+	letter-spacing: 1px;
+}
+
+/* WRAP SECTIONS */
+
+/* hello */
+#hello {
+	width: 100%;
+	padding-bottom: 400px;
+	background: url(../img/mountains.jpg) no-repeat center top;
+	background-size: cover;
+}
+
+#hello h1 {
+	font-size: 90px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	color: #74cfae;
+}
+
+#hello h2 {
+	color: #c0c0c0;
+	font-weight: 400;
+}
+
+/* Green */
+#green {
+	background-color: #74cfae;
+	padding-top: 50px;
+	margin-bottom: 0px;
+}
+
+#green h3 {
+	color: white;
+	font-weight: 400;
+	margin-bottom: 35px;
+}
+
+#green p {
+	color: white;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+
+
+
+/* Image Opacity */
+.grid img {
+    opacity: .7;
+}
+.grid img:hover {
+    opacity: 1;
+}
+
+.drink-background {
+	height: 300px;
+	background-size: cover;
+}
+
+.lion {
+	background: url(../img/lionsquare.png) no-repeat center;
+}
+
+.gintonic {
+	background: url(../img/gintonicsquare.jpg) no-repeat center;
+}
+
+.notes {
+	background: url(../img/notesiconsquare.png) no-repeat center;
+}
+
+.mdba {
+	background: url(../img/mbdasquare.jpg) no-repeat center;
+}
+
+.pub {
+	background: url(../img/pubsquare.png) no-repeat center;
+}
+
+.p45 {
+	background: url(../img/p45square.png) no-repeat center;
+}
+
+.drink-block {
+	height: 300px;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.drink-title {
+	font-weight: 900 !important;
+	font-size: 34px !important;
+	position: absolute;
+	top: 0%;
+	width: 80%;
+	font-family: "Raleway";
+	color: #333;
+	line-height: 1.1;
+	margin-top: 20px;
+	background: rgba(242,242,242, 0.7);
+	-webkit-font-
+}
+
+.drink-text {
+	font-size: 30px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 0px;
+	width: 92%;
+	font-family: "Raleway";
+	margin-left: 4%;
+	color: #333;
+	line-height: 1.1;
+	background: rgba(242,242,242, 0.7);
+}
+
+.stand-out {
+	opacity: 1 !important;
+}
+
+
+
+
+/* Skills */
+#events {
+	background-color: #4e4e4e;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 50px;
+}
+
+#events h3 {
+	color: white;
+}
+
+#events p {
+	color: white;
+	font-weight: 400;
+}
+
+.event-title {
+	width: 74%;
+	float: left;
+	font-size: 30px;
+	padding-top: 1%;
+	color: #fff;
+}
+
+.event-text {
+	float: left;
+	width: 74%;
+	color: #fff;
+}
+
+
+@media (max-width: 1200px) {
+  	.drink-title {
+  		margin-left: 0%;
+  		width: 98%;
+	}
+	.drink-text {
+		position: absolute;
+		width: 70%;
+		left: 50%;
+		margin-left: -35%;
+	}
+	.event-title {
+		width: 100%;
+	}
+	.event-text {
+		width: 100%;
+	}
+	.lion {
+	background: url(../img/lionlong.png) no-repeat center;
+	}
+	.gintonic {
+	background: url(../img/gintoniclong.jpg) no-repeat center;
+	}
+	.notes {
+	background: url(../img/notesiconlong.png) no-repeat center;
+	}
+	.mdba {
+	background: url(../img/mbdalong.jpg) no-repeat center;
+	}
+	.pub {
+	background: url(../img/publong.png) no-repeat center;
+	}
+	.p45 {
+	background: url(../img/p45long.png) no-repeat center;
+	}
+}
+
+@media (max-width: 500px) {
+	#hello h1 {
+		font-size: 60px;
+	}
+	.subtitle {
+		display: none;
+	}
+}
+
+
+

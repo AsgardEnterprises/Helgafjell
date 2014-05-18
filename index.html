@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Helgafjell</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/chart.js"></script>
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+	<div id="hello">
+	    <div class="container">
+	    	<div class="row">
+	    		<div class="col-lg-8 col-lg-offset-2 centered">
+	    			<h1>Helgafjell</h1>
+	    			<div class="subtitle">Drinks, warm hearth and talk inside the wise mountain.</div>
+	    		</div><!-- /col-lg-8 -->
+	    	</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /hello -->
+	
+	<div id="green">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 centered">
+					<img src="assets/img/beer_inverted_clipped.png" alt="">
+				</div>
+				
+				<div class="col-lg-7 centered">
+					<h3>WHAT IS THIS</h3>
+					<p>Helgafjell of legend was a place that was neither a heaven nor a hell. Just a warm place where people would gather to talk, drink, and avoid the outside altogether.  According to mythos, those outside the mountain could not bear look at it without washing their face first. That's a bit strange.  </p>
+
+					<p>Bringing your own refreshment is encouraged. Stay for the company.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row centered mt grid">
+			<h3>OUR LATEST DRINKS</h3>
+			<div class="mt"></div>
+			<div class="col-lg-4 drink-block">
+				<div class="drink-background lion"></div>
+				<div class="drink-title stand-out">
+					The Proverbica
+				</div>
+				<div class="drink-text stand-out">
+					Two drinks, randomly chosen, combined for your enjoyment.
+				</div>
+			</div>
+			<div class="col-lg-4 drink-block">
+			<div class="drink-background gintonic"></div>
+				<div class="drink-title stand-out">
+					Stevenage
+				</div>
+				<div class="drink-text stand-out">
+					Gin tonic. Served as pint of gin with a sprinkling of tonic - for class!
+				</div>
+			</div>
+			<div class="col-lg-4 drink-block">
+				<div class="drink-background notes"></div>
+				<div class="drink-title stand-out">
+					Notes
+				</div>
+				<div class="drink-text stand-out">
+					Drink served after 20 minutes. It's not what you asked for.
+				</div>
+			</div>
+		</div>
+		
+		<div class="row centered grid">	
+			<div class="col-lg-4 drink-block">
+				<div class="drink-background mdba"></div>
+				<div class="drink-title stand-out">
+					MBDA
+				</div>
+				<div class="drink-text stand-out">
+					Quad vod. Ennui naturally included free of charge.
+				</div>
+			</div>
+			<div class="col-lg-4 drink-block">
+				<div class="drink-background pub"></div>
+				<div class="drink-title stand-out">
+					Friday Pub
+				</div>
+				<div class="drink-text stand-out">
+					One ale. Randomly chosen. Quality, also random.
+				</div>
+			</div>
+			<div class="col-lg-4 drink-block">
+				<div class="drink-background p45"></div>
+				<div class="drink-title stand-out">
+					The P45
+				</div>
+				<div class="drink-text stand-out">
+					Stroh. Drink as if on Solar. Stop when simulink appeals.
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<div id="events">
+		<div class="container">
+			<div class="row centered">
+				<h3>OUR NEXT EVENT</h3>
+				<div class="event-title">Oxford Belfry - 19th May</div>
+				<div class="event-text">Helgafjell will be present near the Oxford Belfry shortly. Bring activities and general myopism about corporate culture to the largest bedroom available of the involved members, which for one night only, will hose our glamarous event.
+				<br /> <br />
+				Will there be another little book of awesome? Or something people actually want? Find out this week, it's all going down at the Oxford Belfry.
+				</div>
+				<div class="col-lg-3">
+					<canvas id="plannedDrunkness" height="130" width="130" style="width: 130px; height: 130px;"></canvas>
+					<p>Planned Drunkeness</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 70,
+									color:"#74cfae"
+								},
+								{
+									value : 50,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("plannedDrunkness").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div>
+
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html>
