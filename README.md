@@ -16,4 +16,4 @@ How to use
 
 Simply download the files and open the index.html. If the file structure is preserved, it should simply run.
 
-If you wish to have changes pushed to producted, contact @MarcelCutts
+If you wish to have changes pushed to production, contact @MarcelCutts
