@@ -195,6 +195,11 @@ p {
 	height: 300px;
 	padding-left: 0 !important;
 	padding-right: 0 !important;
+	width: 31.33333333333333%;
+	float: left;
+	position: relative;
+	min-height: 1px;
+	margin:1%;
 }
 
 .drink-title {
@@ -263,7 +268,10 @@ p {
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
+	.drink-block {
+		width: 100%;
+	}
   	.drink-title {
   		margin-left: 0%;
   		width: 98%;
